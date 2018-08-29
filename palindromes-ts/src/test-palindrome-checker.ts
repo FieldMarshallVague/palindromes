@@ -1,14 +1,16 @@
-import isPalindrome from './palindrome-checker';
+import Palindrome from './palindrome-checker';
 
-isPalindrome('');
-isPalindrome('I');
-isPalindrome('It');
-isPalindrome('test');
-isPalindrome('racecar');
-isPalindrome('A man, a plan, a canal.  Panama.');
-isPalindrome('was it a car or a cat i saw');
 
-isPalindrome(`A man, a plan, a cameo, Zena, Bird, Mocha, Prowel, a rave,
+
+Palindrome.check('');
+Palindrome.check('I');
+Palindrome.check('It');
+Palindrome.check('test');
+Palindrome.check('racecar');
+Palindrome.check('A man, a plan, a canal.  Panama.');
+Palindrome.check('was it a car or a cat i saw');
+
+Palindrome.check(`A man, a plan, a cameo, Zena, Bird, Mocha, Prowel, a rave,
 Uganda, Wait, a lobola, Argo, Goto, Koser, Ihab, Udall, a revocation,
 Ebarta, Muscat, eyes, Rehm, a cession, Udella, E-boat, OAS, a mirage,
 IPBM, a caress, Etam, FCA, a mica, Ojai, Lebowa, Yaeger, a barge, Rab,
