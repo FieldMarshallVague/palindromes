@@ -1,0 +1,19 @@
+{
+  "name": "palindromes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test-palindrome-checker.js",
+  "scripts": {
+    "watch": "babel -w src/ -d dist/",
+    "build": "babel src/ -d dist/",
+    "serve": "babel -w src/ -d dist/ | nodemon --watch dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "1.7.0",
+    "nodemon": "1.18.3"
+  }
+}
